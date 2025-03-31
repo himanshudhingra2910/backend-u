@@ -1,0 +1,12 @@
+fastapi==0.115.12
+numpy==2.0.2
+opencv-contrib-python==4.11.0.86
+pandas==2.2.3
+pydantic==2.10.6
+pydantic_core==2.27.2
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+ultralytics==8.3.96
+ultralytics-thop==2.0.14
+uvicorn==0.34.0
