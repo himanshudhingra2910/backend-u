@@ -7,36 +7,28 @@ The API allows users to process videos and detect unique faces and count the num
 This project is created for Ola to enhance security and analytics.
 
 Features
+👀Face detection using YOLOv5
 
-Face detection using YOLOv5
+👀Unique face identification and counting
 
-Unique face identification and counting
+👀Process video files for face recognition
 
-Process video files for face recognition
+👀FastAPI-based RESTful API
 
-FastAPI-based RESTful API
-
-Deployable with ngrok for easy sharing
+👀Deployable with ngrok for easy sharing
 
 
 
 Requirements
 
-Ensure you have the following installed:
-
-Python 3.9+
-
-Anaconda (Optional but recommended)
-
-FastAPI
-
-Uvicorn
-
-OpenCV (cv2)
-
-Torch (PyTorch)
-
-Ngrok (for deployment)
+⦿Ensure you have the following installed:
+⦿Python 3.9+
+⦾Anaconda (Optional but recommended)
+⦾FastAPI
+⦾Uvicorn
+⦾OpenCV (cv2)
+⦾Torch (PyTorch)
+⦾Ngrok (for deployment)
 
 
 Installation
@@ -67,9 +59,9 @@ ngrok http 8000
 
 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License.🪪
 
-Developed by Himanshu Dhingra
+Developed by Himanshu Dhingra🚀
 
 
 
