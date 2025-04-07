@@ -1,12 +1,9 @@
-Unique Face Detection API
-
-Overview
-
+## Unique Face Detection API
 This is a FastAPI-based face recognition system using YOLOv5. 
 The API allows users to process videos and detect unique faces and count the number of people in a video or recording. 
 This project is created for Ola to enhance security and analytics.
 
-Features
+## Features
 👀Face detection using YOLOv5
 
 👀Unique face identification and counting
@@ -19,8 +16,7 @@ Features
 
 
 
-Requirements
-
+## Requirements
 ⦿Ensure you have the following installed:
 ⦿Python 3.9+
 ⦾Anaconda (Optional but recommended)
@@ -31,34 +27,39 @@ Requirements
 ⦾Ngrok (for deployment)
 
 
-Installation
-
-1️⃣ Clone the Repository
-
+## Installation
+**1️⃣ Clone the Repository**
+```bash
 git clone https://github.com/himanshudhingra2910/backend-u.git
+```
 
-2️⃣ Create a Virtual Environment (Recommended)
-
+**2️⃣ Create a Virtual Environment (Recommended)**
+```bash
 conda create --name face-api python=3.9 -y
 conda activate face-api
+```
 
-3️⃣ Install Dependencies
+**3️⃣ Install Dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-Running the API
+## Running the API
 
-1️⃣ Start FastAPI Server
-
+**1️⃣ Start FastAPI Server**
+```bash
 uvicorn api:app --host 0.0.0.0 --port 8000 --reload
+```
 
-Run the interface locally on http://127.0.0.1:8000/docs
+**Run the interface locally on** 
 
-2️⃣ Deploy Using Ngrok
+http://127.0.0.1:8000/docs
+
+**2️⃣ Deploy Using Ngrok**
 
 ngrok http 8000
 
-License
-
+## License
 This project is licensed under the MIT License.🪪
 
 Developed by Himanshu Dhingra🚀
