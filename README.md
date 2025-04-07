@@ -59,10 +59,9 @@ http://127.0.0.1:8000/docs
 
 ngrok http 8000
 
-## License
-This project is licensed under the MIT License.🪪
 
-Developed by Himanshu Dhingra🚀
+
+**Developed by Himanshu Dhingra🚀**
 
 
 
